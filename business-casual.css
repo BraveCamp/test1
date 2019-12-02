@@ -5,8 +5,9 @@
  */
 
 body {
-  font-family: 'Lora';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpg");
+  font-family: 'Roboto Condensed';
+  /* background color */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(219, 232, 225, 1))), url("../img/bg.jpg");
   background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -19,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Roboto Condensed';
 }
 
 p {
@@ -27,7 +28,7 @@ p {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.3);
+  color: #1B4480;
 }
 
 .site-heading {
@@ -35,19 +36,20 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Roboto Condensed';
 }
 
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
-  font-weight: 800;
+  color: #1B4480;
 }
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  color: #E10032;
 }
 
 .page-section {
@@ -57,6 +59,7 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+  font-family: 'Roboto Condensed'
 }
 
 .section-heading .section-heading-upper {
@@ -76,8 +79,8 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  background-color: rgba(27, 68, 128, 1);
+  font-family: 'Roboto Condensed'
 }
 
 #mainNav .navbar-brand {
@@ -156,7 +159,7 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
-.cta .cta-inner:before {
+/*.cta .cta-inner:before {
   border-radius: 0.5rem;
   content: '';
   position: absolute;
@@ -165,7 +168,7 @@ p {
   left: -0.5rem;
   right: -0.5rem;
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
-}
+} */
 
 @media (min-width: 992px) {
   .about-heading .about-heading-img {
@@ -226,7 +229,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #1B4480;
 }
 
 .text-primary {
@@ -234,7 +237,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #DBE8E1 !important;
 }
 
 .btn {
